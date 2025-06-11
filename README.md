@@ -2,13 +2,19 @@
 
 This project performs real-time human **pose detection** using **MediaPipe** and **OpenCV**. It detects key body landmarks from a webcam, image, or video, and includes utilities for angle calculation, repetition counting (e.g. squats), and visualization.
 
-pose_estimation_project/
+pose_estimation_project
 │
+
 ├── main.py # Real-time webcam pose detection
+
 ├── image_pose.py # Static image pose detection
+
 ├── video_pose.py # Video file pose detection
+
 ├── pose_utils.py # Landmark drawing, angle calculation, counters
+
 ├── requirements.txt # Python dependencies
+
 ├── README.md # Project overview
 
 ## 🛠 Features
